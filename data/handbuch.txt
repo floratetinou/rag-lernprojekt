@@ -1,0 +1,20 @@
+Fiktives technisches Handbuch: DataCapture X2
+Version 1.0 – ausschließlich für dieses Lernprojekt
+
+1. Zweck des Systems
+DataCapture X2 ist ein fiktives System zur Aufzeichnung von Mess- und Ereignisdaten während technischer Tests. Es unterstützt die spätere Analyse von Systemverhalten. Die Aufzeichnung kann manuell gestartet oder durch ein konfiguriertes Ereignis ausgelöst werden.
+
+2. Unterstützte Dateiformate
+Das System kann Aufzeichnungen im BLF- und MDF-Format speichern. Für Netzwerkdiagnosen kann zusätzlich das PCAPNG-Format verwendet werden. Welches Format verwendet wird, hängt von der Konfiguration des jeweiligen Testprojekts ab. Das System konvertiert Dateien nicht automatisch zwischen diesen Formaten.
+
+3. Standardaufbewahrung
+In dieser fiktiven Beispieldokumentation werden abgeschlossene Testaufzeichnungen standardmäßig 90 Tage gespeichert. Danach werden sie automatisch zur Löschung vorgemerkt. Für laufende Fehleranalysen kann ein berechtigtes Team eine längere Aufbewahrung beantragen. Eine solche Verlängerung muss dokumentiert werden und ist nicht automatisch aktiviert.
+
+4. Zugriff und Datenschutz
+Zugriff auf gespeicherte Aufzeichnungen erhalten nur Mitarbeitende mit einer passenden Projektberechtigung. Dateien dürfen nicht ohne Freigabe an externe Empfänger weitergegeben werden. Vor dem Hochladen von Aufzeichnungen in externe Dienste müssen die geltenden Sicherheits- und Datenschutzregeln geprüft werden.
+
+5. Fehlersuche
+Wenn keine Aufzeichnung erstellt wird, sollte zuerst geprüft werden, ob der richtige Datenerfassungskanal ausgewählt ist und genügend Speicherplatz vorhanden ist. Danach sollten die Konfiguration und die Systemprotokolle überprüft werden. Bei weiterhin auftretenden Problemen ist das zuständige Support-Team zu kontaktieren.
+
+6. Grenzen des Systems
+DataCapture X2 bewertet nicht automatisch, ob ein Test fachlich bestanden wurde. Es zeichnet Daten auf, die anschließend mit geeigneten Analysewerkzeugen untersucht werden müssen. Aus einer gespeicherten Datei allein folgt daher noch keine Aussage über die Ursache eines Fehlers.

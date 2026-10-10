@@ -1,0 +1,13 @@
+# Lernprojekt: LangChain-basiertes RAG
+# Python 3.10+
+
+# Lokales RAG-Lernprojekt
+
+langchain>=0.3,<1.0
+langchain-community>=0.3,<1.0
+langchain-ollama>=0.2,<1.0
+langchain-chroma>=0.2,<1.0
+langchain-huggingface>=0.1,<1.0
+sentence-transformers>=3.0,<6.0
+python-dotenv>=1.0,<2.0
+
